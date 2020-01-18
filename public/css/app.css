@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);.handle-bottom {
+  padding-bottom: 30%;
+  padding-top: 5%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>/root/Desktop/ecommerce-final/ecommerce/app/Http/Controllers</OriginalElement>
+  <nodes>
+    <node x="584.5" y="84.0">\Illuminate\Foundation\Auth\ResetsPasswords</node>
+    <node x="2010.5" y="84.0">\Illuminate\Foundation\Auth\SendsPasswordResetEmails</node>
+    <node x="939.0" y="188.0">\App\Http\Controllers\ItemController</node>
+    <node x="309.5" y="84.0">\Illuminate\Foundation\Auth\RegistersUsers</node>
+    <node x="1157.0" y="188.0">\App\Http\Controllers\CategoriesController</node>
+    <node x="1447.0" y="188.0">\App\Http\Controllers\CheckoutController</node>
+    <node x="117.0" y="188.0">\App\Http\Controllers\UserController</node>
+    <node x="0.0" y="0.0">\Illuminate\Foundation\Auth\ThrottlesLogins</node>
+    <node x="0.0" y="351.0">/root/Desktop/ecommerce-final/ecommerce/app/Http/Controllers/Auth</node>
+    <node x="340.2437500000001" y="0.0">\Illuminate\Foundation\Auth\RedirectsUsers</node>
+    <node x="347.0" y="188.0">\App\Http\Controllers\Auth\RegisterController</node>
+    <node x="1252.875" y="0.0">\Illuminate\Foundation\Auth\Access\AuthorizesRequests</node>
+    <node x="43.5" y="84.0">\Illuminate\Foundation\Auth\AuthenticatesUsers</node>
+    <node x="317.0" y="272.0">\App\Http\Controllers\RegisterationController</node>
+    <node x="1713.0" y="188.0">\App\Http\Controllers\HomeController</node>
+    <node x="740.940625" y="0.0">\Illuminate\Routing\Controller</node>
+    <node x="1120.74375" y="84.0">\App\Http\Controllers\Controller</node>
+    <node x="613.0" y="188.0">\App\Http\Controllers\ResetPasswordController</node>
+    <node x="998.875" y="0.0">\Illuminate\Foundation\Validation\ValidatesRequests</node>
+    <node x="1518.875" y="0.0">\Illuminate\Foundation\Bus\DispatchesJobs</node>
+    <node x="1931.0" y="188.0">\App\Http\Controllers\ForgotPasswordController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Illuminate\Foundation\Auth\RegistersUsers" target="\Illuminate\Foundation\Auth\RedirectsUsers">
+      <point x="0.0" y="-17.0" />
+      <point x="408.5" y="64.0" />
+      <point x="439.2437500000001" y="64.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\RegisterationController" target="\App\Http\Controllers\Auth\RegisterController">
+      <point x="0.0" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\Auth\RegisterController" target="\App\Http\Controllers\Controller">
+      <point x="61.5" y="-17.0" />
+      <point x="531.5" y="148.0" />
+      <point x="1148.86875" y="148.0" />
+      <point x="-46.875" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\UserController" target="\Illuminate\Foundation\Auth\AuthenticatesUsers">
+      <point x="-49.5" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\ForgotPasswordController" target="\Illuminate\Foundation\Auth\SendsPasswordResetEmails">
+      <point x="79.5" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\Controller" target="\Illuminate\Foundation\Auth\Access\AuthorizesRequests">
+      <point x="18.75" y="-17.0" />
+      <point x="1214.49375" y="54.0" />
+      <point x="1375.875" y="54.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\UserController" target="\App\Http\Controllers\Controller">
+      <point x="49.5" y="-17.0" />
+      <point x="265.5" y="138.0" />
+      <point x="1130.11875" y="138.0" />
+      <point x="-65.625" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\Auth\RegisterController" target="\Illuminate\Foundation\Auth\RegistersUsers">
+      <point x="-61.5" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\HomeController" target="\App\Http\Controllers\Controller">
+      <point x="0.0" y="-17.0" />
+      <point x="1812.0" y="148.0" />
+      <point x="1242.61875" y="148.0" />
+      <point x="46.875" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\Controller" target="\Illuminate\Foundation\Bus\DispatchesJobs">
+      <point x="56.25" y="-17.0" />
+      <point x="1251.99375" y="64.0" />
+      <point x="1617.875" y="64.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="\Illuminate\Foundation\Auth\AuthenticatesUsers" target="\Illuminate\Foundation\Auth\RedirectsUsers">
+      <point x="61.5" y="-17.0" />
+      <point x="228.0" y="64.0" />
+      <point x="373.2437500000001" y="64.0" />
+      <point x="-66.0" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\ForgotPasswordController" target="\App\Http\Controllers\Controller">
+      <point x="-79.5" y="-17.0" />
+      <point x="2010.5" y="138.0" />
+      <point x="1261.36875" y="138.0" />
+      <point x="65.625" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\Controller" target="\Illuminate\Routing\Controller">
+      <point x="-56.25" y="-17.0" />
+      <point x="1139.49375" y="64.0" />
+      <point x="815.940625" y="64.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\ItemController" target="\App\Http\Controllers\Controller">
+      <point x="0.0" y="-17.0" />
+      <point x="1038.0" y="168.0" />
+      <point x="1186.36875" y="168.0" />
+      <point x="-9.375" y="17.0" />
+    </edge>
+    <edge source="\Illuminate\Foundation\Auth\AuthenticatesUsers" target="\Illuminate\Foundation\Auth\ThrottlesLogins">
+      <point x="-61.5" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\Controller" target="\Illuminate\Foundation\Validation\ValidatesRequests">
+      <point x="-18.75" y="-17.0" />
+      <point x="1176.99375" y="54.0" />
+      <point x="1115.875" y="54.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\ResetPasswordController" target="\App\Http\Controllers\Controller">
+      <point x="76.5" y="-17.0" />
+      <point x="842.5" y="158.0" />
+      <point x="1167.61875" y="158.0" />
+      <point x="-28.125" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\CategoriesController" target="\App\Http\Controllers\Controller">
+      <point x="0.0" y="-17.0" />
+      <point x="1292.0" y="168.0" />
+      <point x="1205.11875" y="168.0" />
+      <point x="9.375" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\ResetPasswordController" target="\Illuminate\Foundation\Auth\ResetsPasswords">
+      <point x="-76.5" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="\App\Http\Controllers\CheckoutController" target="\App\Http\Controllers\Controller">
+      <point x="0.0" y="-17.0" />
+      <point x="1570.0" y="158.0" />
+      <point x="1223.86875" y="158.0" />
+      <point x="28.125" y="17.0" />
+    </edge>
+    <edge source="\Illuminate\Foundation\Auth\ResetsPasswords" target="\Illuminate\Foundation\Auth\RedirectsUsers">
+      <point x="0.0" y="-17.0" />
+      <point x="689.5" y="64.0" />
+      <point x="505.2437500000001" y="64.0" />
+      <point x="66.0" y="17.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7326096211153682" x="1004.1826951014004" y="192.49999999999997" />
+  <SelectedNodes />
+  <Categories />
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
